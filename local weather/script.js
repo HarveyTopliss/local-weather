@@ -55,6 +55,7 @@ const displayData = function () {
   description.textContent = weather.description;
 };
 
+//HTTP REQUEST//
 //storing request, deciding url of request, then sending the request
 // const request = new XMLHttpRequest();
 // const requestFunction = function () {
@@ -74,6 +75,7 @@ const displayData = function () {
 //   displayData();
 // });
 
+//PROMISE//
 //send request to url, get response, collect necessary data
 const requestFunction = function () {
   if (requestTime === true) {
